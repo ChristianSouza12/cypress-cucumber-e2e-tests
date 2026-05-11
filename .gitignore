@@ -5,3 +5,5 @@ mochawesome-report
 allure-results
 allure-report
 .DS_Store
+
+reports
