@@ -1,8 +1,19 @@
 # 🚀 Automação de Testes E2E com Cypress + Cucumber
 
+![Cypress](https://img.shields.io/badge/Cypress-Automation-green)
+![Cucumber](https://img.shields.io/badge/Cucumber-BDD-brightgreen)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Status](https://img.shields.io/badge/Tests-Passing-success)
+
 Projeto de automação de testes End-to-End desenvolvido com foco em boas práticas de QA, utilizando Cypress, Cucumber (BDD), Page Object Pattern e geração de dados dinâmicos com Faker.
 
 O objetivo do projeto é validar fluxos críticos da aplicação, como Login e Cadastro de Usuário, cobrindo cenários positivos e negativos.
+
+---
+
+# 📸 Estrutura do projeto
+
+![Project Structure](./README-assets/project-structure.png)
 
 ---
 
@@ -12,6 +23,7 @@ O objetivo do projeto é validar fluxos críticos da aplicação, como Login e C
 - Cucumber / Gherkin
 - JavaScript
 - Faker JS
+- Mochawesome Reporter
 - Page Object Pattern (POM)
 
 ---
@@ -24,6 +36,9 @@ cypress
  │    └── features
  │         ├── login.feature
  │         └── register.feature
+ │
+ ├── reports
+ │    └── index.html
  │
  ├── support
  │    ├── pages
@@ -83,6 +98,31 @@ package.json
 ✔️ Dados dinâmicos com Faker  
 ✔️ Reutilização de steps  
 ✔️ Estrutura organizada para escalabilidade  
+✔️ Relatórios HTML automatizados  
+
+---
+
+# 📊 Relatórios de teste
+
+O projeto utiliza o Mochawesome Reporter para geração de relatórios HTML automatizados contendo:
+
+- Cenários executados
+- Status dos testes
+- Tempo de execução
+- Evidências de falha
+- Screenshots automáticos
+
+---
+
+## 📸 Exemplo do relatório HTML
+
+![Mochawesome Report](./README-assets/mochawesome-report.png)
+
+---
+
+## 📸 Execução dos testes
+
+![Cypress Run](./README-assets/cypress-run.png)
 
 ---
 
@@ -104,10 +144,18 @@ npm install
 
 ---
 
-## 3️⃣ Executar o Cypress
+## 3️⃣ Executar o Cypress em modo visual
 
 ```bash
 npx cypress open
+```
+
+---
+
+## 4️⃣ Executar os testes em modo headless
+
+```bash
+npx cypress run
 ```
 
 ---
