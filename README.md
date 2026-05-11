@@ -1,5 +1,6 @@
 # 🚀 Automação de Testes E2E com Cypress + Cucumber
 
+![Pipeline](https://github.com/ChristianSouza12/cypress-cucumber-e2e-tests/actions/workflows/cypress.yml/badge.svg)
 ![Cypress](https://img.shields.io/badge/Cypress-Automation-green)
 ![Cucumber](https://img.shields.io/badge/Cucumber-BDD-brightgreen)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
