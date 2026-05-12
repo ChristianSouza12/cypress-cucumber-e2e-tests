@@ -5,5 +5,5 @@ mochawesome-report
 allure-results
 allure-report
 .DS_Store
-
+cypress/reports
 reports
